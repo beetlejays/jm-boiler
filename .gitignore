@@ -1,0 +1,33 @@
+# Node artifact files
+node_modules/
+
+dist/
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+# Local History for Visual Studio Code
+.history/
+
+*.csv
+*.csv.gz
+*.tsv
+*.tsv.gz
+*.xlsx
+# Htaccess
+.htaccess
+
+
+.DS_Store
