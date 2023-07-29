@@ -1,25 +1,32 @@
 {
-  "name": "jm-boilerplate",
-  "version": "1.0.0",
-  "description": "A custom starter html boilerplate to get started",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/beetlejays/jm-boiler.git"
-  },
-  "keywords": [
-    "boilerplate",
-    "template",
-    "starter",
-    "htmltemplate"
-  ],
-  "author": "jay milledge",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/beetlejays/jm-boiler/issues"
-  },
-  "homepage": "https://github.com/beetlejays/jm-boiler#readme"
+	"name": "jm-boilerplate",
+	"version": "1.0.0",
+	"description": "A custom starter html boilerplate to get started",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "vite dev"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/beetlejays/jm-boiler.git"
+	},
+	"keywords": [
+		"boilerplate",
+		"template",
+		"starter",
+		"htmltemplate"
+	],
+	"author": "jay milledge",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/beetlejays/jm-boiler/issues"
+	},
+	"homepage": "https://github.com/beetlejays/jm-boiler#readme",
+	"dependencies": {
+		"vite": "^4.4.7"
+	},
+	"devDependencies": {
+		"sass": "^1.64.1"
+	}
 }
